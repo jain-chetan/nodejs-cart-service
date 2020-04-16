@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-cart-service",
+  "version": "1.0.0",
+  "description": "CRUD operations on Cart Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jain-chetan/nodejs-cart-service.git"
+  },
+  "author": "Chetan Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jain-chetan/nodejs-cart-service/issues"
+  },
+  "homepage": "https://github.com/jain-chetan/nodejs-cart-service#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "http-status-codes": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "logger": "0.0.1",
+    "mongoose": "^5.9.9",
+    "nodemon": "^2.0.3"
+  }
+}

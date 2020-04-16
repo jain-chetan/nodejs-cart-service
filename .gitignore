@@ -1,0 +1,4 @@
+config.json
+dbCreds.json
+*modules
+*.log
